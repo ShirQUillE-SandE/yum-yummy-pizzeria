@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+    }
+    .container_navbarmenu {
+	margin: 0;
+      }
+      .container_navbarmenu ul {
+	background-color: black;
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 14px;
+	overflow: hidden;
+	
+      }
+      .container_navbarmenu ul li {
+	text-transform: uppercase;
+	display: inline;
+	padding: inherit;
+      }
+      .container_navbarmenu ul li a {
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 13px;
+	color:white;
+	display: inline;
+	font-family: times, "Times New Roman",serif;
+	text-transform: bold;
+      }
+      .container_navbarmenu ul li:hover {
+	background-color: green;
+	transition: all 0.5s ease-in-out;
+	border-radius: 8px;
+      }
+    body {
+	margin: 0;
+	font-family: 'Ultra', serif;
+	font-size: 18px;
+	line-height: 1.8;
+    }
+    #showcase {
+	background-image: url('../Assets/images/veggie-feast3.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+    }
+    #showcase h1 {
+	font-size: 60px;
+	color:black;
+	font-family: 'Ultra', serif;
+	
+    }
+    #showcase p {
+	font-size: 36px;
+	font-weight: bold;
+	color:black;
+    }
+    #showcase .button {
+	font-size: 20px;
+	text-decoration: none;
+	color: honeydew;
+	border: #926239 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	background:green;
+    }
+    #showcase .button:hover {
+	color: honeydew;
+	background: black;
+    }
+    #AboutUs {
+	height: 40vh;
+	/* background-image: url('../Assets/images/veggie-feast2.jpg'); */
+	background-color:white;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+    }
+    #AboutUs h1 {
+	font-size: 40px;
+	font-weight: 900;
+    }
+    /* #WhatWeOffer {
+	/* height: 20vh; */
+	/* height: 460px; */
+    
+    #whatWeOffer h1 {
+	font-weight: 900;
+	color: black;
+    }
+    #MakeYourOrder {
+	background: white;
+	padding: 0;
+	margin: 0;
+    }
+    #MakeYourOrder h1 {
+	text-align: center;
+	font-weight: 900;
+	color: black;
+    }
+    .footer{
+	text-align: center;
+	color:black;
+    }
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+    
