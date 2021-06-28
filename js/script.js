@@ -85,8 +85,6 @@ topping.prototype.toppingPrice = function() {
     }
 }
 
-
-
 function quantity(name) {
     this.quantityName = name;
 }
@@ -95,7 +93,7 @@ quantity.prototype.quantityPrice = function() {
 
 }
 
-$(document).ready(function() {
+$(Yum-Yummy-Pizzeria).ready(function() {
     $("#delivery").click(function() {
         alert("For to door deliveries. Please confirm by pressing ok to continue");
         prompt("Please Enter your mobile number");
@@ -105,7 +103,7 @@ $(document).ready(function() {
 
 
 
-$(document).ready(function() {
+$(Yum-Yummy-Pizzeria).ready(function() {
     $("#checkout").click(function() {
         event.preventDefault();
 
@@ -116,40 +114,33 @@ $(document).ready(function() {
 
         pizzaSelect = new pizza(pizzaInput);
         pizzaSelect.nameSize();
-        // alert(pizzaSelect.nameSize());
 
     var sizeInput = $("#size").val();
 
     var pizzaSize = new size(sizeInput);
         pizzaSize.priceSize();
-        // alert(pizzaSize.priceSize());
 
     var crustInput = $("#crust").val();
     
     var crustSize = new crust(crustInput);
         crustSize.crustPrice();
-        // alert(crustSize.crustPrice());
 
 
     var toppingInput = $("#toppings").val();
 
     var toppingSize = new topping(toppingInput);
         toppingSize.toppingPrice();
-        // alert(toppingSize.toppingPrice());
 
 
     var quantityInput = $("quantity").val();
 
     var  quantitySize = new quantity (quantityInput);
          quantitySize.quantityPrice();
-        //  alert(quantitySize.quantityPrice());
 
-   // calcTotal to calculate the total pizza summation
 
     var pizzaPrice = (parseInt(parseInt(pizzaSize.priceSize()) + parseInt(crustSize.crustPrice()) + parseInt(toppingSize.toppingPrice())));
     $("#summation").append(pizzaPrice);
 
-    // S-size, C-crust, T-toppings N-name
 
     var pizzaS = (pizzaSize.priceSize());
     $("#psize").append(pizzaS);
