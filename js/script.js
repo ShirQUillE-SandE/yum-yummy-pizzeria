@@ -1,5 +1,3 @@
-// Declairing objects
-
 function pizza(name) {
     this.pizzaName = name;
 }
@@ -97,7 +95,7 @@ quantity.prototype.quantityPrice = function() {
 
 }
 
-$(yumyummypizzeria).ready(function() {
+$(document).ready(function() {
     $("#delivery").click(function() {
         alert("For to door deliveries. Please confirm by pressing ok to continue");
         prompt("Please Enter your mobile number");
@@ -107,7 +105,7 @@ $(yumyummypizzeria).ready(function() {
 
 
 
-$(yumYummyPizzeria).ready(function() {
+$(document).ready(function() {
     $("#checkout").click(function() {
         event.preventDefault();
 
