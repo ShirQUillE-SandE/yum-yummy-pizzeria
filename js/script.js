@@ -97,7 +97,7 @@ quantity.prototype.quantityPrice = function() {
 
 }
 
-$(document).ready(function() {
+$(yumyummypizzeria).ready(function() {
     $("#delivery").click(function() {
         alert("For to door deliveries. Please confirm by pressing ok to continue");
         prompt("Please Enter your mobile number");
@@ -107,7 +107,7 @@ $(document).ready(function() {
 
 
 
-$(document).ready(function() {
+$(yumYummyPizzeria).ready(function() {
     $("#checkout").click(function() {
         event.preventDefault();
 
