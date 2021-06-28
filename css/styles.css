@@ -31,7 +31,7 @@
 	text-transform: bold;
       }
       .container_navbarmenu ul li:hover {
-	background-color: green;
+	background-color:red;
 	transition: all 0.5s ease-in-out;
 	border-radius: 8px;
       }
@@ -54,7 +54,7 @@
     }
     #showcase h1 {
 	font-size: 60px;
-	color:black;
+	color: white;
 	font-family: 'Ultra', serif;
 	
     }
@@ -81,8 +81,8 @@
 	height: 40vh;
 	background-color:white;
 	background-size: cover;
-	background-position: center;
-	color: black;
+	background-position: cover;
+	color: green;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -98,7 +98,7 @@
    
     #whatWeOffer h1 {
 	font-weight: 900;
-	color: black;
+	color: white;
     }
     #MakeYourOrder {
 	background: white;
@@ -109,7 +109,7 @@
     #MakeYourOrder h1 {
 	text-align: center;
 	font-weight: 900;
-	color: black;
+	color: white;
     }
     .footer{
 	text-align: center;
